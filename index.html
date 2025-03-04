@@ -6,3 +6,16 @@
     <title>Inventaris Barang</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <div class="container">
+        <h1>Inventaris Barang</h1>
+        <form id="inventory-form">
+            <input type="text" id="item-name" placeholder="Nama Barang" required>
+            <input type="number" id="item-quantity" placeholder="Jumlah" required>
+            <select id="item-category" required>
+                <option value="" disabled selected>Kategori</option>
+                <option value="Elektronik">Elektronik</option>
+                <option value="Furniture">Furniture</option>
+                <option value="Alat Tulis">Alat Tulis</option>
+                <option value="Peralatan">Peralatan</option>
+            </select>
